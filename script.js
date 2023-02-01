@@ -74,6 +74,8 @@ const categoriesRender = (data) => {
         image.src = el.img
         title.textContent = el.name
         button.textContent = 'show'
+
+        
         button.className = 'button'
         // price.className='price'
         
